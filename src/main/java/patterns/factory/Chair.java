@@ -5,12 +5,25 @@ package patterns.factory;
  */
 public class Chair implements Furniture {
 
+    private String message;
+
     /**
      * Выводит сообщение о создании стула в консоль.
      */
     @Override
     public void create() {
-        System.out.println("Стул был создан.");
+        message = "Стул был создан.";
+        System.out.println(this.message);
+    }
+
+    /**
+     * Возвращает сообщение о создании стула.
+     *
+     * @return сообщение "Стул был создан.".
+     */
+    @Override
+    public String getMessage() {
+        return message;
     }
 
 }
