@@ -19,7 +19,6 @@ public final class Person {
         this.age = age;
     }
 
-
     /**
      * Возвращает экземпляр класса Person.
      * @return Экземпляр класса Person.
