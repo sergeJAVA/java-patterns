@@ -9,6 +9,7 @@ public final class Main {
     /**
      * Основной метод для демонстрации использования SmartHomeFacade.
      * Создает экземпляр фасада и вызывает его упрощенные методы.
+     * @author sergeJava
      */
     public static void main(String[] args) {
         SmartHomeFacade smartHome = new SmartHomeFacade();
