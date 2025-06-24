@@ -11,4 +11,5 @@ public class GoDeveloper implements Developer {
     public void writeCode() {
         System.out.println("Go developer writes code...");
     }
+
 }

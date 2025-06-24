@@ -10,6 +10,7 @@ import java.util.List;
  * единообразно.
  */
 public class Team {
+
     private List<Developer> developers = new ArrayList<>();
 
     /**
@@ -40,4 +41,5 @@ public class Team {
             developer.writeCode();
         }
     }
+
 }

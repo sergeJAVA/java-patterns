@@ -6,9 +6,11 @@ package patterns.composite;
  * и команд разработчиков (композитов).
  */
 public interface Developer {
+
     /**
      * Метод {@code writeCode()} определяет операцию, которую могут выполнять
      * как отдельные разработчики, так и команды разработчиков.
      */
     void writeCode();
+
 }
